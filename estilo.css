@@ -1,7 +1,7 @@
 /*estilização do copo da página*/
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e8cdff;
+    background-color: #ebdcf8;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ header{
 nav ul{
     list-style: none;
     padding: 10px;
-    text-align: justify;
+    text-align: end;
     background-color: #ca94f9;
     margin: 0;
 }
@@ -27,7 +27,7 @@ nav ul li{
 }
 nav ul li a{
     color: #ffffff;
-    text-decoration: none; /*tirar linha de baixo do link*/
+    text-decoration: none; 
     font-size: 18px;
 }
 
@@ -43,7 +43,52 @@ nav ul li a{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     border-radius: 8px;
 }
+.trabalhos{
+    margin-left: 90px;
+    margin-right: 0;
+    padding: 20px;
 
+    h1{
+        color: #000000;
+    }
+    h3{
+        color: #46196e;
+    }
+    button{
+        color: #a851f3;
+
+    }
+}
+footer {
+	background-color: #ca94f9;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container{
+    display: flex;
+}
+.atividade{
+    display: flex;
+}
 .container{
     display: flex;
 }
